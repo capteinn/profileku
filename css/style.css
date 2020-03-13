@@ -17,7 +17,16 @@ nav {
 	color: white;
 }
 
+nav img {
+	padding-top: 8px;
+}
 
+ul {
+	margin: 0;
+	padding-top: 16px;
+	float: right;
+	padding-right: 24px;
+}
 
 li {
 	list-style-type: none;
