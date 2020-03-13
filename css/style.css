@@ -3,10 +3,18 @@ Author : Abdurrahman Trimanto
 Type : CSS
 */
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
+}
+
+#no-body {
+	height: 60px;
 }
 
 nav {
@@ -15,6 +23,7 @@ nav {
 	padding: 0 16px; /*16px = 1rem*/
 	background-color: tomato;
 	color: white;
+	position: fixed;
 }
 
 nav img {
